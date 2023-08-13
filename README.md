@@ -30,7 +30,9 @@ I'll add a new MMA-based log file to the workspace. This will be deprecated star
 Though the law can recieve log data from the VM,
 ![LAW receiving log data](https://github.com/tesnim5hamdouni/SIEMxSentinel/assets/121170828/5c146480-7a49-48fc-bc9c-8d277b7ec970)
 
-it displays all info as RawData. Since custom fields are no longer available, i simply parsed the rawdata field :
+
+## 3. Setup the workbook and show data
+the log displays all info as RawData. Since custom fields are no longer available, i simply parsed the rawdata field :
 ![log data parsing](https://github.com/tesnim5hamdouni/SIEMxSentinel/assets/121170828/d26bd498-7745-409c-aa79-26e377a8e569)
 and grouped it to view the failed rdp login attempts by geolocation data (latitude and longitude) on a world map.
 
@@ -42,4 +44,3 @@ here are the results 30mn after deploying the VM
 
 
 
-## 3. Setup the workbook and show data
