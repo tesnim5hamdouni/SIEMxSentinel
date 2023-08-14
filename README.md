@@ -32,6 +32,7 @@ Though the law can recieve log data from the VM,
 
 
 ## 3. Setup the workbook and show data
+
 the log displays all info as RawData. Since custom fields are no longer available, i simply parsed the rawdata field :
 ![log data parsing](https://github.com/tesnim5hamdouni/SIEMxSentinel/assets/121170828/d26bd498-7745-409c-aa79-26e377a8e569)
 and grouped it to view the failed rdp login attempts by geolocation data (latitude and longitude) on a world map.
@@ -42,5 +43,7 @@ here are the results 30mn after deploying the VM
 6 hours after deploying the VM
 ![6 hours after exposure :O](https://github.com/tesnim5hamdouni/SIEMxSentinel/assets/121170828/f1614559-2e69-445f-bffc-3114276d5af7)
 
+19 hours after deploying the VM - some persistant attckers from India and the Netherlands:
+![19 hours](https://github.com/tesnim5hamdouni/SIEMxSentinel/assets/121170828/43c0d337-8570-4b32-a7b6-ce76bca7122c)
 
 
